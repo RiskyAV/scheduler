@@ -1,0 +1,22 @@
+{
+  "appName": "scheduler-service",
+  "host": "0.0.0.0",
+  "port": "4000",
+  "db": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "scheduler",
+    "username": "",
+    "password": "",
+    "dialect": "postgres",
+    "logging": true,
+    "migrationStorage": "sequelize",
+    "seederStorage": "sequelize",
+    "pool": {
+      "max": 25,
+      "idle": 2000,
+      "evict": 2500,
+      "acquire": 15000
+    }
+  }
+}
